@@ -1,0 +1,16 @@
+{
+  "name": "starEvaluation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/enriquegomes/stars_evaluation.git",
+  "author": "Enrique Gomes <enriquerique@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery-confirm": "^3.3.4",
+    "materialize-css": "^1.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.2"
+  }
+}
