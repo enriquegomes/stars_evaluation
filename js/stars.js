@@ -1,3 +1,10 @@
+$(window).on("load", function(){
+    $(".loader").addClass("loaded");
+    setTimeout(()=>{
+        $(".loader").remove()
+    }, 400)
+})
+
 $(document).ready(function () {
 
     $('a.open').confirm({
@@ -5,8 +12,8 @@ $(document).ready(function () {
         columnClass: 'col-md-10',
         draggable: false,
         content:
-            '<div class="row justify-content-between">' +
-            '<div class="rate col-8">' +
+            '<div class="row justify-content-md-center">' +
+            '<center><div class="rate col-12">' +
             '<input type="radio" id="star5" name="rate" value="5" />' +
             '<label for="star5" title="5">5 stars</label>' +
             '<input type="radio" id="star4" name="rate" value="4" />' +
@@ -17,7 +24,7 @@ $(document).ready(function () {
             '<label for="star2" title="2">2 stars</label>' +
             '<input type="radio" id="star1" name="rate" value="1" />' +
             '<label for="star1" title="1">1 star</label>' +
-            '</div>' +
+            '</div></center>' +
             '</div>' +
             '<div class="row">' +
             '<div class="input-field col s12">' +
